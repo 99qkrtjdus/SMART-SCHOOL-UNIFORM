@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>문서 제목</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".slider").bxSlider({
+				auto:true,
+    		controls:false,
+    		pager:false
+			});
+		});
+	</script>
+
+	<style>
+		body {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 12px;
+      color:#000;
+      position: relative;
+    }
+
+    a.navbar-brand{
+    	display: block; 
+    	width: 130px; 
+    	height: 30px;
+    	padding: 0; 
+    	margin: 0; 
+    	line-height: 63px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+    	color: #000; 
+    	font-size: 18px; 
+    	font-weight: bold;
+    	background-color: #d2e5f3; 
+    	
+    }
+
+     
+    
+		div.dropdown-menu{background-color: #fff; border:none; font-size: 14px;}
+		a.dropdown-item{color: #000;}
+		
+	  .dropdown-toggle:after{display: none;}
+
+		.bg-b{background-color: #d2e5f3;}
+
+		.con1{padding: 0;}
+
+	  .videotxt{width: 1200px; height: 50px;} 
+	  .videotxt p{font-size: 25px;text-align: center; line-height: 50px; font-weight: bold; color:#000;} 	  
+    
+    h2{text-align: center; color: #fff; font-size:40px;}
+	  h2 span{font-weight: lighter; font-size: 30px;}
+	  .con-txt{font-size: 20px; text-align: center; color: #181818;}
+	  .con-txt span{font-weight: bold;}
+    
+    .iconwrap{position: relative;}
+    .iconwrap:hover{box-shadow: 8px 8px 10px rgba(0,0,0,0.5); transform:translate(-10px,-10px);}
+
+	  h3{font-size: 20px; color: white; margin-top: 10px; text-align: center;}
+	  .icon1-6{position: absolute; top: 12px; right: 15px; width: 25px; height: 25px;}
+	  
+
+	  .bg-mint{background-color: #7ac3b2;}
+    
+    .par{position: relative;}
+	  h5{font-size: 50px; color:#fff; position: absolute; top: 20px; font-weight: bold; line-height: 65px; letter-spacing: 10px;}
+	  h5:hover{color:#000;}
+
+	  .nb1{left: 30px;}
+	  .nb2{right: 30px; text-align: right;}
+	  .nb3{left: 30px; text-align: center;}
+	  .tip{letter-spacing: 20px;}
+	  .nb4{top: 30px; left: 90px;}
+	  .nb5{left: 30px;}
+	  .nb6{top: 40px; left: 50px;line-height: 80px;}
+	  .nb7{top: 40px; right: 50px; line-height: 80px;}
+
+
+
+
+	  .bx-wrapper {
+      -moz-box-shadow: none;
+   		-webkit-box-shadow:  none;
+    	box-shadow:  none;
+    	border:  none;
+    	background:  none;
+    	margin-bottom: 0;
+    }
+
+    .bgbgbg{background-color: #2f363e;}
+    .footer{width: 100%; background-color: #2f363e;}
+    .snsicon{width: 50px; height: 50px; display: block;}
+    .ftwrap{width: 400px; margin: 0 auto; margin-bottom: 30px;}
+    .ftwrap>li{float: left; margin-left:40px; margin-top: 50px;}
+
+    div.ftt{width: 1000px; margin: 0 auto; color: #fff; text-align: center;}
+    div.fit>p{margin-top: 10px; text-align: center;}
+	</style>
+</head>
+
+
+<body>
+  <div class="bg-b">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-b">
+				<a class="navbar-brand mb-5" href="#!"><img src="images/smartlogo.png" alt=""></a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" 
+				  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ml-auto mt-2 mt-md-0">
+			      <li class="nav-item dropdown">
+			      	<a class="nav-link dropdown-toggle ml-1" href="#" id="navbardrop" data-toggle="dropdown">스마트 소개</a>
+			      	<div class="dropdown-menu p-3">
+			      		<a class="dropdown-item" href="sub1.html?sub01=0">스마트 소개</a>
+			      		<a class="dropdown-item" href="sub1.html?sub01=1">수상 연혁</a>
+			      		<a class="dropdown-item" href="sub1.html?sub01=2">사회공헌</a>
+			      		<a class="dropdown-item" href="sub1.html?sub01=3">스마트 모델</a>
+			      	</div>
+			      </li>
+
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle ml-1" href="#" id="navbardrop" data-toggle="dropdown">학교주관 구매제</a>
+				      <div class="dropdown-menu p-3">
+				        <a class="dropdown-item" href="sub2.html?sub01=0">학교 주관 구매제란?</a>
+				        <a class="dropdown-item" href="sub2.html?sub01=1">왜 스마트인가</a>
+				        <a class="dropdown-item" href="sub2.html?sub01=2">스마트 신제품</a>
+				        <a class="dropdown-item" href="sub2.html?sub01=3">교복관리 TIP</a>
+				      </div>
+			      </li>
+
+			       <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle ml-1" href="#" id="navbardrop" data-toggle="dropdown">스마트 스타일</a>
+				      <div class="dropdown-menu p-3">
+				        <a class="dropdown-item" href="sub3.html?sub01=0">소년 스타일</a>
+				        <a class="dropdown-item" href="sub3.html?sub01=1">소녀 스타일</a>
+			      		<a class="dropdown-item" href="sub3.html?sub01=2">스타일링 아이템</a>
+			      </li>
+			      
+			      <li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle ml-1" href="#" id="navbardrop" data-toggle="dropdown">스마트 TV</a>
+				      <div class="dropdown-menu p-3">
+				        <a class="dropdown-item" href="sub4.html?sub01=0">스마트 필름</a>
+				        <a class="dropdown-item" href="sub4.html?sub01=1">스마트 갤러리</a>
+				        <a class="dropdown-item" href="sub4.html?sub01=2">온에어</a>
+				      </div>
+			      </li>
+
+			      <li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle ml-1" href="#" id="navbardrop" data-toggle="dropdown">매장/고객센터</a>
+				      <div class="dropdown-menu p-3">
+				        <a class="dropdown-item" href="sub5.html?sub01=0">매장찾기</a>
+				        <a class="dropdown-item" href="sub5.html?sub01=1">이벤트</a>
+				        <a class="dropdown-item" href="sub5.html?sub01=2">고객문의</a>
+				        <a class="dropdown-item" href="sub5.html?sub01=3">FAQ</a>
+				      </div>
+			      </li>
+			      
+				  </ul>
+				</div>
+			</nav>
+		</div>
+  </div>
+
+	<div class="wrapper mb-0">
+	  <ul class="slider"> 
+	  	<li><div class="col-12 col-md-12 con1"><img src="images/slide.jpg" class="w-100" alt=""></div></li>
+	  	<li><div class="col-12 col-md-12 con1"><img src="images/slide2.jpg" class="w-100" alt=""></div></li>
+	  	<li><div class="col-12 col-md-12 con1"><img src="images/slide3.jpg" class="w-100" alt=""></div></li>
+	  	<li><div class="col-12 col-md-12 con1"><img src="images/slide4.jpg" class="w-100" alt=""></div></li>	
+	  </ul>
+	</div>
+
+	<div class="bg-b py-2">
+		<div class="container">
+			<!-- 16:9 aspect ratio -->
+			<div class="row text-center">
+				<div class="embed-responsive embed-responsive-16by9">
+				  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z_Z10KoNi0U"></iframe>
+				</div>
+			</div>
+		</div>	
+	</div>	
+
+
+	<div class="bg-info py-3">
+		<div class="container px-0">
+			<h2 class="col-12 pt-2">교복<span>을</span> 스마트<span>하게</span> +</h2>
+			<p class="col-12 con-txt px-0 py-3"><span>
+			  디자인,품질,기능</span>까지 <span>모두 스마트한</span> 스마트 학생복의 <br> <span>2020년 스타일을</span>  만나 보세요!
+			</p>
+			<div class="row ml-0 mr-0">
+				<div class="col-6 col-md-2 iconwrap">
+					<h3>스타일케어</h3>
+					<img src="images/icon1.png" alt="" class="icon1-6">
+					<img src="images/0201.png" alt="" class="w-100 shw">
+				</div>
+			
+
+		
+				<div class="col-6 col-md-2 iconwrap">
+					<h3>자외선케어</h3>
+					<img src="images/icon2.png" alt="" class="icon1-6">
+					<img src="images/0202.png" alt="" class="w-100 shw">
+				</div>
+			
+		
+				<div class="col-6 col-md-2 iconwrap">
+					<h3>저자극케어</h3>
+					<img src="images/icon3.png" alt="" class="icon1-6">
+					<img src="images/0203.png" alt="" class="w-100 shw">
+				</div>
+		
+
+			  <div class="col-6 col-md-2 iconwrap">
+					<h3>체온조절</h3>
+					<img src="images/icon4.png" alt="" class="icon1-6">
+					<img src="images/0204.png" alt="" class="w-100 shw">
+				</div>
+		
+
+	
+				<div class="col-6 col-md-2 iconwrap">
+					<h3>오염방지</h3>
+					<img src="images/icon5.png" alt="" class="icon1-6">
+					<img src="images/0205.png" alt="" class="w-100 shw">
+				</div>
+			
+
+				<div class="col-6 col-md-2 iconwrap">
+					<h3>항균케어</h3>
+					<img src="images/icon6.png" alt="" class="icon1-6">
+					<img src="images/0206.png" alt="" class="w-100 shw">
+				</div>
+		
+      </div>
+		</div>
+	</div>
+
+	<div class="bg-mint p-5">
+		<div class="container px-0">
+			<div class="row">
+				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
+					<h5 class="nb1">소년<br>스타일</h5>
+					<a href="sub3.html?sub01=0"><img src="images/sm0301.jpg" alt="" class="w-100"></a>
+				</div>
+
+				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
+					<h5 class="nb2">소녀<br>스타일</h5>
+		      <a href="sub3.html?sub01=1"><img src="images/sm0302.jpg" alt="" class="w-100"></a> 
+				</div>
+
+				<div class="d-none pl-0 pr-0 p-3 par d-md-block col-md-4">
+					<h5 class="nb3">관<br>리<br>T<br>I<br>P</h5>
+					<a href="sub2.html?sub01=3"><img src="images/sm0303.jpg" alt="" class="w-100"></a>
+				</div>
+
+				<div class="d-none pl-0 pr-0 p-3 par d-md-block col-md-4">
+					<a href="sub1.html?sub01=0"><img src="images/smlogo.jpg" alt="" class="w-100"></a>
+				</div>
+
+				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
+					<h5 class="nb4">매장찾기</h5>
+					<a href="sub5.html?sub01=0"><img src="images/sm0305.jpg" alt="" class="w-100"></a>
+				</div>
+
+				<div class="d-none pl-0 pr-0 p-3 par d-md-block col-md-4">
+					<a href=""><img src="images/smartlogo02-1.jpg" alt="" class="w-100"></a>
+				</div>
+
+				<div class="d-none pl-0 pr-0 p-3 par d-md-block col-md-4">
+					<h5 class="nb5">스마트<br>필름</h5>
+					<a href="sub4.html?sub01=0"><img src="images/sm0307.jpg" alt="" class="w-100"></a>
+				</div>
+
+				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
+					<h5 class="nb6">이<br>벤<br>트</h5>
+					<a href="sub5.html?sub01=1"><img src="images/sm0308.jpg" alt="" class="w-100"></a>
+				</div>
+
+				<div class="col-12 pl-0 pr-0 p-3 par col-md-4">
+					<h5 class="nb7">고<br>객<br>센<br>터</h5>
+					<a href="sub5.html?sub01=2"><img src="images/sm0309.jpg" alt="" class="w-100"></a>
+				</div>
+      </div>
+		</div>
+	</div>
+
+  
+  <div class="bgbgbg">
+		<div class="container footer">
+			<div class="row">
+				<ul class="ftwrap clearfix">
+		  		<li><a href="https://twitter.com/smart_zzang"><img src="images/twitter.png" alt="" class="snsicon"></a></li>
+		  		<li><a href="https://www.instagram.com/ilovesmart/"><img src="images/insta.png" alt="" class="snsicon"></a></li>
+		  		<li><a href="https://www.facebook.com/smartzzang"><img src="images/facebook.png" alt="" class="snsicon"></a></li>
+		  		<li><a href="https://www.youtube.com/channel/UC9Pfm_o3Y3OgtpFXUIvsV7w?feature=watch"><img src="images/logotype.png" alt="" class="snsicon"></a></li>
+		  		</ul>
+		      <div class="col-12 ftt">
+		    	<p>
+		    		(주)스마트에프앤디 대표자 : 윤경석 서울특별시 광진구 자양로116
+		        <br>소비자상담실 080-900-3400 등록번호 : 206-86-70883 대표번호 : 070-7492-0099
+		      </p>
+		      <p>COPYRIGHT © 2020 S'FD. ALL RIGHTS RESERVED.</p>
+		      </div>	
+			</div>
+		</div> 
+	</div> 
+
+
+ 
+
+
+
+ 
+
+</body>
+</html>
